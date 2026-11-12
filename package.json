@@ -1,0 +1,15 @@
+{
+  "name": "rakshak-dashboard",
+  "private": true,
+  "version": "2.1.0",
+  "scripts": {
+    "test": "node verify.cjs && node verify-customization.cjs",
+    "test:extension": "node verify-extension.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0"
+  },
+  "dependencies": {
+    "nepali-date-converter": "3.4.2"
+  }
+}

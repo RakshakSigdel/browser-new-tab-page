@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "My Space",
+  "version": "2.1.0",
+  "description": "Rakshak’s dashboard with editable shortcuts, Nepali calendar, tasks, Itahari weather, and Kathmandu and Chicago clocks.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "host_permissions": [
+    "https://api.open-meteo.com/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

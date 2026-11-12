@@ -2,3 +2,5 @@ node_modules/
 .npm-cache/
 .qa-profile/
 *-preview.png
+reference.webp
+update-dashboard.cjs
